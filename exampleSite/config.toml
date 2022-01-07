@@ -1,0 +1,237 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'LittleLink'
+
+disableKinds = ["taxonomy", "term", "sitemap", "RSS"]
+
+theme = "littlelink"
+
+[params]
+  author = "Seth Cottle"
+  description = "Find us online!"
+  color = "dark" # light or dark
+  avatar = "images/avatar.png"
+  avatar2x = "images/avatar@2x.png"
+  bio = "LittleLink is an open source DIY alternative to services like Linktree and many.link"
+
+[[params.social]]
+  button = "github"
+  name = "github"
+  title = "GitHub"
+  url = "#"
+
+[[params.social]]
+  button = "twit"
+  name = "twitter"
+  title = "Twitter"
+  url = "#"
+
+[[params.social]]
+  button = "instagram"
+  name = "instagram"
+  title = "Instagram"
+  url = "#"
+
+[[params.social]]
+  button = "faceb"
+  name = "facebook"
+  title = "Facebook"
+  url = "#"
+
+[[params.social]]
+  button = "messenger"
+  name = "messenger"
+  title = "Facebook"
+  url = "#"
+
+[[params.social]]
+  button = "linked"
+  name = "linkedin"
+  title = "LinkedIn"
+  url = "#"
+
+[[params.social]]
+  button = "yt"
+  name = "youtube"
+  title = "YouTube"
+  url = "#"
+
+[[params.social]]
+  button = "discord"
+  name = "discord"
+  title = "Discord"
+  url = "#"
+
+[[params.social]]
+  button = "twitch"
+  name = "twitch"
+  title = "Twitch"
+  url = "#"
+
+[[params.social]]
+  button = "producthunt"
+  name = "producthunt"
+  title = "Product"
+  url = "#"
+
+[[params.social]]
+  button = "snapchat"
+  name = "snapchat"
+  title = "Snapchat"
+  url = "#"
+
+[[params.social]]
+  button = "spotify"
+  name = "spotify"
+  title = "Spotify"
+  url = "#"
+
+[[params.social]]
+  button = "reddit"
+  name = "reddit"
+  title = "Reddit"
+  url = "#"
+
+[[params.social]]
+  button = "mastodon"
+  name = "mastodon"
+  title = "Mastodon"
+  url = "#"
+
+[[params.social]]
+  button = "medium"
+  name = "medium"
+  title = "Medium"
+  url = "#"
+
+[[params.social]]
+  button = "pinterest"
+  name = "pinterest"
+  title = "Pinterest"
+  url = "#"
+
+[[params.social]]
+  button = "tiktok"
+  name = "tiktok"
+  title = "TikTok"
+  url = "#"
+
+[[params.social]]
+  button = "default"
+  name = "email"
+  title = "Email"
+  url = "#"
+
+[[params.social]]
+  button = "default"
+  name = "email_alt"
+  title = "Email"
+  url = "#"
+
+[[params.social]]
+  button = "soundcloud"
+  name = "soundcloud"
+  title = "SoundCloud"
+  url = "#"
+
+[[params.social]]
+  button = "figma"
+  name = "figma"
+  title = "Figma"
+  url = "#"
+
+[[params.social]]
+  button = "kit"
+  name = "kit"
+  title = "Kit"
+  url = "#"
+
+[[params.social]]
+  button = "telegram"
+  name = "telegram"
+  title = "Telegram"
+  url = "#"
+
+[[params.social]]
+  button = "tumb"
+  name = "tumblr"
+  title = "Tumblr"
+  url = "#"
+
+[[params.social]]
+  button = "steam"
+  name = "steam"
+  title = "Steam"
+  url = "#"
+
+[[params.social]]
+  button = "vimeo"
+  name = "vimeo"
+  title = "Vimeo"
+  url = "#"
+
+[[params.social]]
+  button = "paypal"
+  name = "paypal"
+  title = "PayPal"
+  url = "#"
+
+[[params.social]]
+  button = "whatsapp"
+  name = "whatsapp"
+  title = "WhatsApp"
+  url = "#"
+
+[[params.social]]
+  button = "wordpress"
+  name = "wordpress"
+  title = "Wordpress"
+  url = "#"
+
+[[params.social]]
+  button = "goodreads"
+  name = "goodreads"
+  title = "Goodreads"
+  url = "#"
+
+[[params.social]]
+  button = "skoob"
+  name = "skoob"
+  title = "Skoob"
+  url = "#"
+
+[[params.social]]
+  button = "gitlab"
+  name = "gitlab"
+  title = "GitLab"
+  url = "#"
+
+[[params.social]]
+  button = "xing"
+  name = "xing"
+  title = "xing"
+  url = "#"
+
+[[params.social]]
+  button = "bandcamp"
+  name = "bandcamp"
+  title = "Bandcamp"
+  url = "#"
+
+[[params.social]]
+  button = "patreon"
+  name = "patreon"
+  title = "Patreon"
+  url = "#"
+
+[[params.social]]
+  button = "signal"
+  name = "signal"
+  title = "Signal"
+  url = "#"
+
+[[params.social]]
+  button = "venmo"
+  name = "venmo"
+  title = "Venmo"
+  url = "#"
