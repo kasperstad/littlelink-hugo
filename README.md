@@ -6,7 +6,6 @@ LittleLink is a lightweight DIY alternative to services like [Linktree](https://
 and [many.link](https://many.link/).
 
 https://github.com/sethcottle/littlelink
-https://littlelink.io
 
 ## License
 
