@@ -76,13 +76,21 @@ button:hover,
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 /* Default (this is great for your own brand color!) */
-.button.button-default {
+.button.button-email {
   color: #FFFFFF;
   background-color: #0085FF }
-.button.button-default:hover,
-.button.button-default:focus {
+.button.button-email:hover,
+.button.button-email:focus {
   filter: brightness(90%) }
-  
+
+/* Default (this is great for your own brand color!) */
+.button.button-email_alt {
+  color: #FFFFFF;
+  background-color: #0085FF }
+.button.button-email_alt:hover,
+.button.button-email_alt:focus {
+  filter: brightness(90%) }
+
 /* Bandcamp */
 .button.button-bandcamp {
   color: #FFFFFF;
@@ -124,11 +132,11 @@ button:hover,
   filter: brightness(90%) }
 
 /* Facebook */
-.button.button-faceb {
+.button.button-facebook {
   color: #FFFFFF;
   background-color: #1877f2 }
-.button.button-faceb:hover,
-.button.button-faceb:focus {
+.button.button-facebook:hover,
+.button.button-facebook:focus {
   filter: brightness(90%) }
 
 /* Facebook Messenger */

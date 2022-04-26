@@ -1,4 +1,3 @@
-{{ $baseurl := .Site.BaseURL }} <!-- {{ $baseurl }} -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,21 +8,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ $baseurl }}/css/normalize.css">
-    <link rel="stylesheet" href="{{ $baseurl }}/css/{{ lower .Site.Params.color }}.css">
-    <link rel="stylesheet" href="{{ $baseurl }}/css/brands.css">
-    <link rel="icon" type="image/png" href="{{ $baseurl }}/{{ .Site.Params.avatar }}">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/{{ lower .Site.Params.color }}.css">
+    <link rel="stylesheet" href="/css/brands.css">
+    <link rel="icon" type="image/png" href="/{{ .Site.Params.avatar }}">
 </head>
 <body>
     <div class="container">
         <div class="row">
             <div class="column x-mt">
-                <img src="{{ $baseurl }}/{{ .Site.Params.avatar }}" srcSet="{{ $baseurl }}/{{ .Site.Params.avatar2x }}" alt="{{ .Site.Title }} Logo">
+                <img src="/{{ .Site.Params.avatar }}" srcSet="/{{ .Site.Params.avatar2x }}" alt="{{ .Site.Title }} Logo">
                 <h1>{{ .Site.Title }}</h1>
                 <p>{{ .Site.Params.bio }}</p>
                 {{ range sort .Site.Params.social "name" }}
-                    <a class="button button-{{ .button }}" href="{{ .url }}" target="_blank" rel="noopener">
-                        <img class="icon" src="{{ $baseurl }}/images/icons/{{ .name }}.svg" alt="{{ .title }} Logo">{{ .title }}
+                    <a class="button button-{{ .name }}" href="{{ .url }}" target="_blank" rel="noopener">
+                        <img class="icon" src="/images/icons/{{ .name }}.svg" alt="{{ .title }} Logo">{{ .title }}
                     </a>
                 {{ end }}
           <br>
