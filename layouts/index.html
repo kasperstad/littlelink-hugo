@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+{{ $style := resources.Match "css/**.css" | resources.Concat "css/main.css" | minify | fingerprint }}
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -8,12 +9,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/{{ lower .Site.Params.color }}.css">
-    <link rel="stylesheet" href="/css/brands.css">
+    <link rel="preload" href="{{ $style.RelPermalink }}" as="style">
+    <link href="{{ $style.RelPermalink }}" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/png" href="/{{ .Site.Params.avatar }}">
 </head>
-<body>
+<body class="{{ lower .Site.Params.color }}">
     <div class="container">
         <div class="row">
             <div class="column x-mt">
