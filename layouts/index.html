@@ -13,7 +13,7 @@
     <link href="{{ $style.RelPermalink }}" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/png" href="/{{ .Site.Params.avatar }}">
 </head>
-<body class="{{ lower .Site.Params.color }}">
+{{ if (eq .Site.Params.color "dark") }}<body class="dark">{{ else }}<body>{{ end }}
     <div class="container">
         <div class="row">
             <div class="column x-mt">
